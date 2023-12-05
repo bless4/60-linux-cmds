@@ -199,8 +199,9 @@ curl -O http://example.com/file.txt <br>
 
 Copy files securely over SSH.  <br>
 
-39. scp file.txt user@remote:/path/to/destination <br>
-ssh
+ scp file.txt user@remote:/path/to/destination <br>
+
+39. ssh
 
 Connect to a remote server securely. <br>
 
