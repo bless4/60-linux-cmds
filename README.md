@@ -1,308 +1,308 @@
-# 60-linux-cmds
+# 60-linux-cmds <br>
 
-## Here's a list of 60 Linux commands along with examples of how they are used:
+## Here's a list of 60 Linux commands along with examples of how they are used: <br>
 
-1. ls (List)
+1. ls (List)  <br>
 
-List files and directories in the current directory.
-ls
+List files and directories in the current directory. <br>
+ls <br>
 
-2. pwd (Print Working Directory)
+2. pwd (Print Working Directory) <br>
 
-Print the current working directory.
-pwd
+Print the current working directory. <br>
+pwd <br>
 
-3. cd (Change Directory)
- Change directory.
+3. cd (Change Directory) <br>
+ Change directory. <br>
 
-cd /path/to/directory
+cd /path/to/directory <br>
 
-4. cp (Copy)
+4. cp (Copy) <br>
 
-Copy files or directories.
-cp file.txt /path/to/destination
+Copy files or directories. <br>
+cp file.txt /path/to/destination <br>
 
-5. mv (Move/Rename)
+5. mv (Move/Rename) <br>
 
-Move or rename files or directories.
-mv file.txt newfile.txt
+Move or rename files or directories. <br>
+mv file.txt newfile.txt <br>
 
-6. rm (Remove/Delete)
+6. rm (Remove/Delete) <br>
 
-Remove files or directories.
+Remove files or directories. <br>
 
-rm file.txt
+rm file.txt <br>
 
-7. mkdir (Make Directory)
+7. mkdir (Make Directory) <br>
 
-Create a new directory.
+Create a new directory. <br>
 
-mkdir new_directory
+mkdir new_directory <br>
 
-8. rmdir (Remove Directory)
-Remove an empty directory.
+8. rmdir (Remove Directory) <br>
+Remove an empty directory. <br>
 
- rmdir empty_directory
+ rmdir empty_directory <br>
 9. touch
 
-Create an empty file or update the access/modification time.
+Create an empty file or update the access/modification time. <br>
 
-touch new_file.txt
+touch new_file.txt <br>
 
-10. cat (Concatenate)
+10. cat (Concatenate) <br>
 
-Display the content of files.
+Display the content of files. <br>
 
-cat file.txt
+cat file.txt <br>
 
-11. more
+11. more <br>
 
-Display the content of a file one screen at a time.
+Display the content of a file one screen at a time. <br>
 
-more file.txt
+more file.txt <br>
 
-12. less
+12. less <br>
 
-Display the content of a file interactively.
-less file.txt
+Display the content of a file interactively. <br>
+less file.txt  <br>
 
 13. head
-Display the first few lines of a file.
-head file.txt
+Display the first few lines of a file. <br>
+head file.txt <br>
 
-14. tail
+14. tail <br>
 
-Display the last few lines of a file.
+Display the last few lines of a file. <br>
 
-tail file.txt
+tail file.txt <br>
 
-15. nano/vi
+15. nano/vi <br>
 
-Text editors for creating or modifying files.
+Text editors for creating or modifying files. <br>
 
-nano file.txt
+nano file.txt <br>
 
-16. grep (Global Regular Expression Print)
+16. grep (Global Regular Expression Print) <br>
 
-Search for a pattern in files.
-grep "pattern" file.txt
+Search for a pattern in files. <br>
+grep "pattern" file.txt  <br>
 
-17. find
+17. find <br>
 
-Search for files and directories in a directory hierarchy.
+Search for files and directories in a directory hierarchy. <br>
 
-find /path/to/search -name "filename"
+find /path/to/search -name "filename"  <br>
 
-18. tar (Tape Archive)
+18. tar (Tape Archive)  <br>
 
-Create or extract tar archives.
+Create or extract tar archives. <br>
 
-tar -cvf archive.tar file1 file2
+tar -cvf archive.tar file1 file2  <br>
 
-19. gzip
+19. gzip  <br>
 
-Compress or decompress files using gzip compression.
-gzip file.txt
+Compress or decompress files using gzip compression. <br>
+gzip file.txt  <br>
 
-20. gunzip
+20. gunzip  <br>
 
-Decompress files compressed with gzip.
+Decompress files compressed with gzip. <br>
 
-gunzip file.txt.gz
+gunzip file.txt.gz <br>
 
-21. zip/unzip
-Create or extract zip archives.
-zip archive.zip file1 file2
+21. zip/unzip  <br>
+Create or extract zip archives. <br>
+zip archive.zip file1 file2  <br>
 
-22. df (Disk Free)
+22. df (Disk Free)  <br>
 
-Display disk space usage.
-df -h
+Display disk space usage. <br>
+df -h <br>
 
-23. du (Disk Usage)
+23. du (Disk Usage) <br>
 
-Display file and directory space usage.
-du -h
+Display file and directory space usage. <br>
+du -h   <br>
 
-24. ps (Process Status)
+24. ps (Process Status)  <br>
 
-Display information about running processes.
+Display information about running processes. <br>
 ps aux
 
-25. top
+25. top <br>
 
-Display a dynamic view of system processes.
+Display a dynamic view of system processes. <br>
 top
 
-26. kill
+26. kill  <br>
 
-Terminate a process.
+Terminate a process.  <br>
 kill -9 PID
 
-27. chmod (Change Mode)
+27. chmod (Change Mode)  <br>
 
-Change file permissions.
-chmod 755 file.txt
+Change file permissions. <br>
+chmod 755 file.txt  <br>
 
-28. chown (Change Owner)
+28. chown (Change Owner)  <br>
 
-Change file owner and group.
-chown user:group file.txt
+Change file owner and group. <br>
+chown user:group file.txt <br>
 
-29. ps aux
+29. ps aux  <br>
 
-Display detailed information about all running processes.
-ps aux
+Display detailed information about all running processes. <br>
+ps aux   
 
-30. bg (Background)
+30. bg (Background) <br>
 
-Run a command in the background.
+Run a command in the background. <br>
 command &
 
-31. fg (Foreground)
+31. fg (Foreground) <br>
 
-Bring a background process to the foreground.
+Bring a background process to the foreground.  <br>
 fg
 
-32. jobs
+32. jobs  <br>
 
-Display the status of background jobs.
+Display the status of background jobs. <br>
 
 jobs
 
-33. ping
+33. ping  <br>
 
-Test network connectivity.
+Test network connectivity. <br>
 ping google.com
 
-34. ifconfig
+34. ifconfig  <br>
 
-Display or configure network interfaces.
+Display or configure network interfaces. <br>
 ifconfig
 
-35. netstat
+35. netstat <br>
 
-Display network connections and routing tables.
-netstat -an
+Display network connections and routing tables.  <br>
+netstat -an  <br>
 
 36. wget
-Download files from the internet.
+Download files from the internet.  <br>
 
-wget http://example.com/file.zip
+wget http://example.com/file.zip  <br>
 
-37. curl
+37. curl   <br>
 
-Transfer data with URLs.
-curl -O http://example.com/file.txt
+Transfer data with URLs. <br>
+curl -O http://example.com/file.txt <br>
 
-38. scp (Secure Copy)
+38. scp (Secure Copy) <br>
 
-Copy files securely over SSH.
+Copy files securely over SSH.  <br>
 
-39. scp file.txt user@remote:/path/to/destination
+39. scp file.txt user@remote:/path/to/destination <br>
 ssh
 
-Connect to a remote server securely.
+Connect to a remote server securely. <br>
 
-ssh user@remote
+ssh user@remote  <br>
 
-40. uname
-Display system information.
+40. uname  <br>
+Display system information. <br>
 uname -a
 
 41. date
-Display or set the system date and time.
+Display or set the system date and time. <br>
 date
 
-42. cal (Calendar)
-Display a calendar.
+42. cal (Calendar) <br>
+Display a calendar. <br>
 cal
 
-43. uptime
+43. uptime <br>
 
-Display how long the system has been running.
+Display how long the system has been running. <br>
 uptime
 
-44. passwd
+44. passwd <br>
 
-Change user password.
+Change user password. <br>
 passwd
 
-45. useradd
-Copy code
-useradd newuser
+45. useradd <br>
 
-46. userdel
-Delete a user.
+useradd newuser <br>
+
+46. userdel   <br>
+Delete a user. <br>
 userdel olduser
 
-47. passwd
+47. passwd  <br>
 
-Change user password.
+Change user password. <br>
 
 passwd username
 
-48. sudo
+48. sudo <br>
 
-Execute a command with administrative privileges.
+Execute a command with administrative privileges. <br>
 sudo command
 
-49. chroot
+49. chroot  <br>
 
-Run a command or interactive shell with a different root directory.
+Run a command or interactive shell with a different root directory. <br>
 chroot /new/root /bin/bash
 
-50. free
+50. free  <br>
 
-Display amount of free and used memory.
+Display amount of free and used memory. <br>
 free -h
 
-51. df -h
+51. df -h  <br>
 
-Display disk space usage in a human-readable format.
+Display disk space usage in a human-readable format.  <br>
 df -h
 
-52. lsblk
+52. lsblk  <br>
 
-List block devices.
+List block devices.  <br>
 lsblk
 
-53. fdisk
+53. fdisk <br>
 
-Manipulate disk partition table.
+Manipulate disk partition table. <br>
 fdisk /dev/sdX
 
-54. mount/umount
+54. mount/umount  <br>
 
-Mount or unmount filesystems.
+Mount or unmount filesystems.   <br>
 mount /dev/sdX1 /mnt
 
-55. ps aux | grep [process]
+55. ps aux | grep [process] <br>
 
-Find information about a specific process.
+Find information about a specific process. <br>
 
 ps aux | grep process_name
 
-56. killall
-Kill processes by name.
+56. killall  <br>
+Kill processes by name.  <br>
 killall process_name
 
-57. hostname
+57. hostname  <br>
 
-Display or set the system's hostname.
+Display or set the system's hostname. <br>
 hostname
 
-58. echo
+58. echo  <br>
 
-Display a message or redirect output.
+Display a message or redirect output.  <br>
 echo "Hello, World!"
 
-59. history
+59. history <br>
 
-Display command history.
+Display command history. <br>
 history
 
-60. shutdown
+60. shutdown  <br>
 
-Shut down or restart the system.
+Shut down or restart the system. <br>
 shutdown -h now
